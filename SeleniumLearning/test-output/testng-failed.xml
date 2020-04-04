@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mouseHover.MouseMovement2">
+      <class name="mouseHover.RighClick">
         <methods>
-          <include name="mouseHover"/>
+          <include name="rightClick"/>
         </methods>
-      </class> <!-- mouseHover.MouseMovement2 -->
+      </class> <!-- mouseHover.RighClick -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
