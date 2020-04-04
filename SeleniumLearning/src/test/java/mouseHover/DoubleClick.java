@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import lib.MouseAction;
 
-public class DoubleClick
+public class DoubleClick extends MouseAction
 {
 	static WebDriver driver;
 
@@ -27,6 +27,6 @@ public class DoubleClick
 		Thread.sleep(3000);
 		
 		WebElement dd=driver.findElement(By.xpath("//button[contains(.,'Double-Click Me To See Alert')]"));
-		MouseAction.doubleclick(driver, dd);
+		doubleclick(driver, dd);
 	}
 }

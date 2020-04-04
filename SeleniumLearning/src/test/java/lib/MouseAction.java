@@ -25,4 +25,10 @@ public class MouseAction
 		Actions actions= new Actions(driver);
 		actions.doubleClick(elementToClick).build().perform();
 	}
+	
+	public static void rightClick(WebDriver driver,WebElement elementToClick)
+	{
+		Actions actions= new Actions(driver);
+		actions.contextClick(elementToClick).build().perform(); //contextClick means RichtClick
+	}
 }
