@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17178" started-at="2020-03-28T14:56:19Z" finished-at="2020-03-28T14:56:37Z">
+  <suite name="Default suite" duration-ms="15577" started-at="2020-04-04T14:33:12Z" finished-at="2020-04-04T14:33:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17178" started-at="2020-03-28T14:56:19Z" finished-at="2020-03-28T14:56:37Z">
-      <class name="mouseHover.DoubleClick">
-        <test-method status="PASS" signature="doubleClick()[pri:0, instance:mouseHover.DoubleClick@4dfa3a9d]" name="doubleClick" duration-ms="17148" started-at="2020-03-28T14:56:19Z" finished-at="2020-03-28T14:56:37Z">
+    <test name="Default test" duration-ms="15577" started-at="2020-04-04T14:33:12Z" finished-at="2020-04-04T14:33:28Z">
+      <class name="mouseHover.RighClick">
+        <test-method status="PASS" signature="rightClick()[pri:0, instance:mouseHover.RighClick@239963d8]" name="rightClick" duration-ms="15550" started-at="2020-04-04T14:33:12Z" finished-at="2020-04-04T14:33:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doubleClick -->
-      </class> <!-- mouseHover.DoubleClick -->
+        </test-method> <!-- rightClick -->
+      </class> <!-- mouseHover.RighClick -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
